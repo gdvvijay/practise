@@ -1,0 +1,37 @@
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.title {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.content {
+  padding: 15px;
+  display: none; /* Initially hidden */
+}
+
+.content.active {
+  display: block; /* Shown when active */
+}
