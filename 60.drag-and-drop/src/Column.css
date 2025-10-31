@@ -1,0 +1,27 @@
+.column {
+  margin: 0 10px;
+  background-color: #ebecf0;
+  border-radius: 3px;
+  width: 272px;
+  min-height: 100px;
+  flex-shrink: 0; /* Prevent columns from shrinking */
+  display: flex;
+  flex-direction: column;
+}
+
+.column-title {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.task-list {
+  padding: 8px;
+  flex-grow: 1; /* Allows list to fill available space */
+  min-height: 80px; /* Provides a drop target even when empty */
+  transition: background-color 0.2s ease;
+}
+
+.column.drag-over .task-list {
+  background-color: #cdd2d4;
+}

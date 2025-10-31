@@ -1,0 +1,8 @@
+.board {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  overflow-x: auto;
+  min-height: calc(100vh - 100px); /* Full height minus header */
+}
