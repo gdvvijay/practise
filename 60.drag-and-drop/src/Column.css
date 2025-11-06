@@ -25,3 +25,4 @@
 .column.drag-over .task-list {
   background-color: #cdd2d4;
 }
+.task-placeholder { min-height: 1px; }

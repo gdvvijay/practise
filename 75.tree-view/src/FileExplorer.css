@@ -1,0 +1,33 @@
+.file-explorer {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.tree-node {
+  padding-left: 20px;
+}
+
+.node-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.node-label:hover {
+  background-color: #e6f7ff;
+}
+
+.node-name {
+  user-select: none; /* Prevents text selection on click */
+}
+
+/* Logic for this is part of the buggy code */
+.children-container.collapsed {
+  display: none;
+}

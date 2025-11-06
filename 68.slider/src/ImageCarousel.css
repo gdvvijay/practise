@@ -1,0 +1,63 @@
+.carousel-container {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* This is key to making the slider work */
+  border-radius: 8px;
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%; /*Each slide takes up the full container width*/
+  /* height: 100%; */
+  max-width: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}

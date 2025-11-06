@@ -1,0 +1,62 @@
+.datepicker-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 20px;
+  user-select: none;
+}
+
+.datepicker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.datepicker-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.day-name {
+  font-weight: bold;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.calendar-day {
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.calendar-day:hover {
+  background-color: #e6f7ff;
+}
+
+/* Modifier classes */
+.calendar-day.today {
+  border: 1px solid #1890ff;
+  color: #1890ff;
+}
+
+.calendar-day.selected {
+  background-color: #1890ff;
+  color: white;
+}

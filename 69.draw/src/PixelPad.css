@@ -1,0 +1,43 @@
+.pixel-pad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #333;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pixel {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box; /* Ensures border is inside the element */
+  cursor: pointer;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c0392b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+  background-color: #87ceeb; /* Sky Blue */
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.container header h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}

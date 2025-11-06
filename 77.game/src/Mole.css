@@ -1,0 +1,21 @@
+.mole-hole {
+  width: 100px;
+  height: 100px;
+  background-color: saddlebrown; /* This is an intentional CSS bug */
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid #654321;
+}
+.mole {
+  width: 101%;
+  position: absolute;
+  bottom: 99px;
+  left: 49%;
+  transform: translateX(-50%) translateY(100%);
+  transition: transform 0.2s ease-out;
+  cursor: pointer;
+}
+.mole.up {
+  transform: translateX(-50%) translateY(10%);
+}
