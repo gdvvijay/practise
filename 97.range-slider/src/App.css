@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+.container {
+  padding: 40px;
+}
+.container header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.slider-box {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.range-display {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}

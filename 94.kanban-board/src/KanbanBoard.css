@@ -1,0 +1,37 @@
+.kanban-board {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.column {
+  background-color: #ebecf0;
+  border-radius: 3px;
+  width: 272px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.column h3 {
+  margin-top: 0;
+}
+
+.task-list {
+  min-height: 100px;
+  transition: background-color 0.2s ease;
+}
+
+/* Add this class for drop highlighting later */
+.task-list.drag-over {
+  background-color: #dcdfe4;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(9,30,66,.25);
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: grab;
+}

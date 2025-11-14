@@ -1,0 +1,36 @@
+.comment {
+  border-left: 2px solid #e9ebee;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.comment-body {
+  position: relative;
+}
+.comment-author {
+  font-weight: bold;
+}
+.comment-text {
+  margin-top: 5px;
+}
+.reply-btn {
+  background: none;
+  border: none;
+  color: #606770;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+.reply-form {
+  margin-top: 10px;
+}
+.reply-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.reply-form button {
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.comment-replies {
+  margin-top: 15px;
+}

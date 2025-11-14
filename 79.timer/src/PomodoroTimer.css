@@ -1,0 +1,40 @@
+.pomodoro-timer {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: background-color 0.5s ease;
+}
+
+/* Dynamic background based on mode */
+.pomodoro-timer.work {
+  background-color: #d95550; /* Reddish for work */
+}
+.pomodoro-timer.break {
+  background-color: #4c9195; /* Bluish-green for break */
+}
+
+.timer-display {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timer-status {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timer-controls button {
+  padding: 10px 30px;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}

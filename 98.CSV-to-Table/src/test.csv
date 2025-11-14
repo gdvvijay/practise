@@ -1,0 +1,5 @@
+this is a csv file read example, the FileReader is configured to readAsArrayBuffer. This will not provide the text content needed for parsing, leading to a crash or incorrect output.
+CSV Parsing is Incorrect: The core logic for splitting the CSV text into rows and headers is flawed. It only splits by commas, not by new lines, which will result in all the data appearing as a single malformed row.
+App Crashes When No File Is Uploaded: If the component renders initially or if you click "Reset," it tries to map over tableData.headers, which is undefined. This causes the application to crash.
+Table Rows Are Not Rendered Correctly: The parsed rows array will contain strings for each row, but the rendering logic in the tbody only creates one <td> per row, displaying the entire comma-separated string instead of individual cells.
+Reset Button Doesn't Clear the Table: Clicking the "Reset" button clears the file name, but it doesn't clear the tableData state, leaving the previously rendered table visible.

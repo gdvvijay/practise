@@ -1,0 +1,29 @@
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(0,0,0,0.1);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.time-segment {
+  text-align: center;
+}
+
+.time-value {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.time-label {
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.countdown-container.finished {
+  font-size: 2rem;
+  color: #f1c40f;
+}

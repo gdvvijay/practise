@@ -1,0 +1,76 @@
+.todo-list-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.add-todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.add-todo-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+.add-todo-form button {
+  padding: 0 15px;
+  border: 1px solid #0052cc;
+  border-left: none;
+  background-color: #0052cc;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+.todo-item:last-child {
+  border-bottom: none;
+}
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #7a869a;
+}
+.main-task {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-task input {
+  width: 18px;
+  height: 18px;
+}
+
+.subtask-list {
+  list-style: none;
+  padding-left: 40px;
+  margin: 10px 0;
+}
+.subtask-list li.completed {
+  text-decoration: line-through;
+  color: #7a869a;
+}
+.add-subtask-form {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+.add-subtask-form input {
+  flex-grow: 1;
+}
+.add-subtask-form button {
+  margin-left: 5px;
+}

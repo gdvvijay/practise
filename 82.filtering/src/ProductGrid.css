@@ -1,0 +1,36 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.product-card .category {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.product-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #10b981;
+}
+
+.no-products {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-size: 1.2rem;
+}
