@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f8fafc;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+.container header {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}

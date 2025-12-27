@@ -1,0 +1,78 @@
+.poll-container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.poll-container h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.options-container {
+  margin: 20px 0;
+}
+
+.option-wrapper {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.option-wrapper:not(.voted-for):hover {
+  border-color: #94a3b8;
+}
+
+/* Style for the selected (but not yet voted) option */
+.option-wrapper.selected {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.option-text {
+  font-weight: bold;
+}
+
+.result-bar {
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.result-fill {
+  background-color: #60a5fa;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.percentage {
+  position: absolute;
+  left: 10px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.vote-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vote-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}

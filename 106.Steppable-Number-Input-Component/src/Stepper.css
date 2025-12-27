@@ -1,0 +1,40 @@
+.stepper-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.stepper-btn {
+  background-color: #f8f9fa;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.stepper-btn:hover:not(:disabled) {
+  background-color: #e9ecef;
+}
+.stepper-btn:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.stepper-input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-size: 1.2rem;
+  /* -moz-appearance: textfield; Remove arrows in Firefox */
+}
+/* Remove arrows in Chrome, Safari, etc. */
+.stepper-input::-webkit-outer-spin-button,
+.stepper-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

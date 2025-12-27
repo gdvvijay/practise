@@ -1,0 +1,36 @@
+.stopwatch-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.timer-display {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.controls button {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+}
+.controls button:first-of-type {
+  background-color: #27ae60;
+  color: white;
+}
+.controls button:last-of-type {
+  background-color: #c0392b;
+  color: white;
+}

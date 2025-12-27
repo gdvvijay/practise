@@ -1,0 +1,43 @@
+.editor-container {
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.toolbar {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #d1d5db;
+  background-color: #f9fafb;
+}
+
+.toolbar button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #e5e7eb;
+}
+
+.toolbar button.active {
+  background-color: #dbeafe;
+  border-color: #93c5fd;
+}
+
+.editable-area {
+  min-height: 250px;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.editable-area:focus {
+  outline: none;
+}

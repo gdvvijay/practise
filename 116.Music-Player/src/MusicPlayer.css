@@ -1,0 +1,68 @@
+.music-player-container {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.album-art {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.track-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.track-artist {
+  margin: 5px 0 20px 0;
+  color: #b3b3b3;
+  font-weight: normal;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #b3b3b3;
+}
+
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  flex-grow: 1;
+  height: 5px;
+  background: #444;
+  outline: none;
+  cursor: pointer;
+}
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.control-btn {
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.play-btn {
+  font-size: 3rem;
+  color: #fff;
+}

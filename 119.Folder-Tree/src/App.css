@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7fafc;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+}
+.container header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
