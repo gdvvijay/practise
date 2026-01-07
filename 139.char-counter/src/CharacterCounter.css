@@ -1,0 +1,45 @@
+.counter-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.text-input {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+/* Style for when the text is over the limit */
+.text-input.over-limit {
+  border-color: #e53e3e;
+}
+.text-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.counter-feedback {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  gap: 15px;
+}
+.char-count {
+  color: #64748b;
+  font-weight: bold;
+}
+/* Style for when the counter is over the limit */
+.char-count.over-limit {
+  color: #e53e3e;
+}
+
+.error-message {
+  color: #e53e3e;
+  font-weight: bold;
+}

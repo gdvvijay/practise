@@ -1,0 +1,50 @@
+.weather-container {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: background-color 0.5s ease;
+  background-color: #87ceeb; /* Default: SkyBlue */
+}
+
+/* Background themes for conditions */
+.weather-container.Sunny { background-color: #f9d71c; color: #333; }
+.weather-container.Cloudy { background-color: #b0c4de; color: #333; }
+.weather-container.Rainy { background-color: #778899; color: #fff; }
+
+.weather-container.initial {
+  background-color: #fff;
+  color: #333;
+}
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.search-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+.search-form button {
+  padding: 0 20px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.weather-details {
+  margin-top: 20px;
+}
+.temperature {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.condition {
+  font-size: 1.5rem;
+}
+.error {
+    color: #dc3545;
+}

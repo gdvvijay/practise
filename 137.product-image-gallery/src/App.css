@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f1f2f6;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
