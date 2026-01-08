@@ -1,0 +1,17 @@
+.workout-logger { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 20px; }
+.panel { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.list { list-style: none; padding: 0; margin: 0; }
+.list-item { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-radius: 4px; }
+.list-item:nth-child(odd) { background-color: #f8fafc; }
+.list-item button { background: #34d399; color: white; border: none; border-radius: 50%; width: 24px; height: 24px; cursor: pointer; font-weight: bold; }
+
+.workout-list .workout-exercise { border-bottom: 1px solid #e2e8f0; padding: 10px 0; }
+.workout-exercise h4 { margin: 0 0 10px 0; display: flex; justify-content: space-between; }
+.remove-btn { background: #ef4444; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.workout-exercise .details { display: flex; gap: 10px; align-items: center; }
+.workout-exercise .details label { font-size: 0.8rem; color: #64748b; }
+.workout-exercise .details input { width: 50px; padding: 4px; border: 1px solid #cbd5e1; border-radius: 3px; }
+.save-btn { width: 100%; padding: 12px; margin-top: 20px; background-color: #3b82f6; color: white; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; }
+.save-btn:disabled { background-color: #9ca3af; }
+
+.history-panel .history-item { padding: 10px; border-bottom: 1px dashed #ccc; }
